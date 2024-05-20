@@ -1,0 +1,36 @@
+[MASTER]
+extension-pkg-whitelist=pydantic
+ignore=.venv
+
+[MAIN]
+# Autodetect number of pylint processes
+jobs=0
+
+[FORMAT]
+max-line-length=120
+
+[DESIGN]
+max-args=7
+
+[SIMILARITIES]
+min-similarity-lines=5
+
+[MESSAGES CONTROL]
+disable=raw-checker-failed,
+        bad-inline-option,
+        locally-disabled,
+        file-ignored,
+        suppressed-message,
+        useless-suppression,
+        deprecated-pragma,
+        use-symbolic-message-instead,
+        missing-docstring,
+        missing-module-docstring,
+        missing-function-docstring,
+        missing-class-docstring,
+        too-few-public-methods,
+        empty-docstring,
+        unnecessary-lambda-assignment,
+
+[MISCELLANEOUS]
+notes=FIXME,TODO

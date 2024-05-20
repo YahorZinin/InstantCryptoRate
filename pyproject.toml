@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "instantcryptorate"
+version = "0.1.0"
+description = ""
+authors = ["Yahor Zinin <yahor.zinin@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+aiohttp = {extras = ["speedups"], version = "^3.9.5"}
+pydantic = "^2.7.1"
+redis = {extras = ["hiredis"], version = "^5.0.4"}
+aiojobs = "^1.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
